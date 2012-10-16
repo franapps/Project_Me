@@ -17,7 +17,7 @@ ul, ol, li {
 }
 
 * {
-	color: #578080;
+	color: white;
 }
 
 /* 
@@ -30,22 +30,20 @@ body {
 	background-color: #white;
 	font-family: 'Convergence', helvetica, sans-serif;
 	color: #578080;
+	background-color: #79B1C4;
 }
 
 #wrapper {
-	height: 900px;
-	width: 1000px;
+	height: 900px auto;
+	width: 95%;
 	margin: auto;
 	padding: 20px;
 	position: relative;
-	border-width: 0px 10px 0px 10px;
-	border-style: solid;
-	border-color: #B8783D;
 }
 
 #content {
 	height: auto;
-	width: 900px;
+	width: 95%;
 	margin: auto;
 }
 
@@ -56,14 +54,14 @@ Navigation
 */
 
 #navigation {
-	width: 900px;
+	width: 100%;
 	height: 30px;
 	padding: 5px;
-	margin-left: 50px;
 	margin-bottom: 25px;
 	border-width: 1px 0px;
 	border-style: dashed;
 	border-color: #CCC;
+	color: white;
 }
 
 #navigation li {
@@ -87,156 +85,52 @@ a:hover {
 
 /* 
 ################
-Login Form
-################
-*/
-
-.side {
-	float: right;
-	position: fixed;
-		top: 25px;
-		right: 50px;
-}
-
-.fields {
-	height: 20px;
-	width: 150px;
-	margin: 2px 0px;
-}
-
-.error {
-	font-size: 1.6em;
-	color: red;
-	margin-bottom: 30px;
-}
-
-#logout {
-	margin-top: 5px;
-}
-
-/* 
-################
 Content
 ################
 */
 
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin: 5px;
+}
+
 h1, h2 {
 	color: #266871;
-	margin-bottom: 10px;
-}
-
-#tech {
-	margin-bottom: 5px;
-}
-
-article {
-	text-align: center;
-}
-
-.bubble {
-	width: 400px;
-	height: auto;
-	padding: 20px 40px 40px 40px;
-	border-width: 10px;
-	border-style: solid;
-		border-radius: 300px;
-	background-color: #E7B383;
-}
-
-.red {
-	border-color: #B8463D;
-	float: right;
-}
-
-.blue {
-	border-color: #266871;
-	float: left;
 }
 
 .textbox {
-	height: 275px;
-	width: 380px;
-	margin: auto;
-	position: relative;
+	width: 50%;
+	padding: 5px;
 }
 
 p {
 	line-height: 1.4em;
 	letter-spacing: 1px;
 	font-size: 0.95em;
-	color: #266871;
-}
-
-.img {
-	height: 229px;
-	width: 236px;
-	border: 2px solid #DF9E62;
-	margin: 50px;
-	overflow: hidden;
-}
-
-#devimg {
-	float: right;
-	margin-right: 100px;
-}
-
-#techimg {
-	float: left;
-	margin-left: 100px;
-}
-
-#sig {
-	position: absolute;
-		bottom: 25px;
-}
-
-.blog {
-	margin: 5px 0px;
-	padding: 5px;
-	border-width: 0px 0px 1px 0px;
-	border-style: dashed;
-	border-color: #CCC;
 }
 
 span {
-	color: #E7B383;
+	border: 1px dotted white;
 }
 
-/* 
-################
-Email Form
-################
-*/
+#contact {
+	float: left;
+}
 
-.emailform {
-	width: 410px;
-	height: 500px auto;
-	margin-top: 30px;
+#bigme {
+	width: 45%;
+	height: 600px;
+	float: right;
+	border: 1px dotted white;
 	position: relative;
+	position-bottom: 5px;
 }
 
-label {
-	width: 300px;
-	height: 15px;
-	padding: 5px 0px;
-}
-
-.inputbox {
-	margin: 5px 0px;
-}
-
-.input {
-	width: 200px;
-	margin: 5px 0px;
-	position: absolute;
-		right: 5px;
-}
-
-#emailtitle {
-	margin-top: 20px;
-}
-
-#twiticon {
-	width: 50px;
-	height: 50px;
+#login {
+	float: left;
+	margin-top: 50px;
 }
