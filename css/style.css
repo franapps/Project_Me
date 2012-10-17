@@ -16,10 +16,6 @@ ul, ol, li {
 	list-style: none;
 }
 
-* {
-	color: white;
-}
-
 /* 
 ################
 Basic Page Layout
@@ -29,7 +25,7 @@ Basic Page Layout
 body {
 	background-color: #white;
 	font-family: 'Convergence', helvetica, sans-serif;
-	color: #578080;
+	color: white;
 	background-color: #79B1C4;
 }
 
@@ -79,6 +75,10 @@ Navigation
 	margin-right: 50px; 
 }
 
+a:link, a:visited {
+	color: white;
+}
+
 a:hover {
 	color: red;
 }
@@ -95,7 +95,7 @@ h1 {
 }
 
 h2 {
-	margin: 5px;
+	margin-bottom: 5px;
 }
 
 h1, h2 {
@@ -104,7 +104,6 @@ h1, h2 {
 
 .textbox {
 	width: 50%;
-	padding: 5px;
 }
 
 p {
@@ -130,7 +129,12 @@ span {
 	position-bottom: 5px;
 }
 
-#login {
-	float: left;
-	margin-top: 50px;
+form:input {
+	color: black;
+}
+
+#admin {
+	position: fixed;
+	bottom: 0;
+	right: 0;
 }

@@ -9,7 +9,7 @@ if(credentials_valid($_POST['username'], $_POST['password'])){
 		unset($_SESSION['redirect_to']);
 
 	}else{
-		header("location: index.php");
+		header("location: admin.php");
 	}
 }else{
 	header("Location: login.php?error=1");

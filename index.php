@@ -16,6 +16,9 @@ include "includes/_header.php";
 		</p>
 	</div>
 </article>
+
+<br>
+
 <article>
 	<div class="textbox">
 		<h2 id="tech">The Techie</h2>
@@ -29,26 +32,12 @@ include "includes/_header.php";
 		</p>
 	</div>
 </article>
+
+<br>
+
 <div id="contact">
 	<p>
 		Good news, everyone! You can follow me on twitter! <span><a href="https://twitter.com/intent/user?screen_name=Monk1989">@monk1989</a></span>
 	</p>
-</div>
-<div id="login">
-	<form action="authenticate.php" method="POST">
-		<table>
-			<tr>
-				<td><label for="username">Username</label></td>
-				<td><input type="text" name="username" id="username"></td>
-			</tr>
-			<tr>
-				<td><label for="password">Password</label></td>
-				<td><input type="password" name="password" id="password"></td>
-			</tr>
-			<tr>
-				<td><input type="submit" value="Log In"></td>
-			</tr>
-		</table>
-	</form>
 </div>
 <?php include "includes/_footer.php"; ?>
