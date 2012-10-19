@@ -2,6 +2,7 @@
 $title = "About Me";
 include "includes/_header.php"; 
 ?>
+
 <div class="image" id="bigme"><p>This will be a massive image of me!</p></div>
 
 <article>

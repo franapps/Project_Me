@@ -15,7 +15,8 @@ $date = $row['theDate'];
 	<p><?php echo $content ?></p>
 </article>
 
-<?php 
-}
+<?php }; ?>
+
+<?php
 include "includes/_footer.php";
 ?>

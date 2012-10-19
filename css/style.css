@@ -106,6 +106,17 @@ h1, h2 {
 	width: 50%;
 }
 
+.blog {
+	margin: 10px 0px;
+	padding-bottom: 20px;
+	width: 30%;
+	border-bottom: 1px dashed #CCC;
+}
+
+iframe {
+	float: right;
+}
+
 p {
 	line-height: 1.4em;
 	letter-spacing: 1px;
@@ -125,8 +136,6 @@ span {
 	height: 600px;
 	float: right;
 	border: 1px dotted white;
-	position: relative;
-	position-bottom: 5px;
 }
 
 form:input {
