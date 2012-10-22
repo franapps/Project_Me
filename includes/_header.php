@@ -15,11 +15,11 @@ require_once('database.php');
 	</head>
 	<body>
 		<div id="wrapper">
-			<h1>Francis Apaloo</h1>
-			<div id="navbar">
+			<div id="header">
 				<ul id="navigation">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="blog.php">Blog</a></li>			
 				</ul>
+				<h1>Francis Apaloo</h1>
 			</div>
 			<div id="content">

@@ -2,7 +2,14 @@
 $title = "Fran's blog";
 include "includes/_header.php";
 db_connect();
+?>
 
+<div class="bubble big"></div>
+<div class="bubble big"></div>
+<div class="bubble medium"></div>
+<div class="bubble small"></div>
+
+<?php
 $sql = mysql_query("SELECT * FROM blogData ORDER BY id DESC");
 while($row = mysql_fetch_array($sql)){
 $title = $row['Title'];
